@@ -19,7 +19,7 @@ var myMap = L.map("map", {
   }).addTo(myMap);
 
   // Store our link
-var link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
+var link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
 
 //  Get color radius call to link
 d3.json(link, function(data) {
